@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Cailee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Cailee,</h1>
+        <p>You bring so much love, joy, and happiness into my life. This little corner of the internet is just for you, to remind you how special you are.</p>
+        <div class="message-box">
+            <h2>A Special Note:</h2>
+            <p>Whenever you're feeling down, just remember how much you're loved and cherished. You are the sunshine in my world. 🌻</p>
+        </div>
+        
+        <div class="heart-container">
+            <img src="heart.png" alt="Heart" class="heart" onclick="showMessage()">
+            <p id="hidden-message" class="hidden">You are my everything 💖</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("hidden-message").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
