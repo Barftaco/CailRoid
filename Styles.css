@@ -1,0 +1,50 @@
+body {
+    background-color: #ffe4e1;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.message-box {
+    background-color: #ffebcd;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.heart-container {
+    margin-top: 20px;
+}
+
+.heart {
+    width: 100px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#hidden-message {
+    font-size: 1.2em;
+    color: #ff69b4;
+    margin-top: 10px;
+}
